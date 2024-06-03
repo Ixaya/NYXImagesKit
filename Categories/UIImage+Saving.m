@@ -97,19 +97,19 @@
 	return ret;
 }
 
--(BOOL)saveToPhotosAlbum
-{
-	ALAssetsLibrary *library = [[ALAssetsLibrary alloc] init];
-	__block BOOL ret = YES;
-	[library writeImageToSavedPhotosAlbum:self.CGImage orientation:(ALAssetOrientation)self.imageOrientation completionBlock:^(NSURL* assetURL, NSError* error) {
-		if (!assetURL)
-		{
-			NSLog(@"%@", error);
-			ret = NO;
-		}
-	}];
-	return ret;
-}
+//-(BOOL)saveToPhotosAlbum
+//{
+//	ALAssetsLibrary *library = [[ALAssetsLibrary alloc] init];
+//	__block BOOL ret = YES;
+//	[library writeImageToSavedPhotosAlbum:self.CGImage orientation:(ALAssetOrientation)self.imageOrientation completionBlock:^(NSURL* assetURL, NSError* error) {
+//		if (!assetURL)
+//		{
+//			NSLog(@"%@", error);
+//			ret = NO;
+//		}
+//	}];
+//	return ret;
+//}
 
 +(NSString*)extensionForUTI:(CFStringRef)uti
 {

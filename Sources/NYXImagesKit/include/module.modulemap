@@ -1,0 +1,18 @@
+module NYXImagesKit {
+    header "NYXImagesHelper.h"
+    header "NYXImagesKit.h"
+    header "UIImage+Blurring.h"
+    header "UIImage+Enhancing.h"
+    header "UIImage+Filtering.h"
+    header "UIImage+Masking.h"
+    header "UIImage+Reflection.h"
+    header "UIImage+Masking.h"
+    header "UIImage+Resizing.h"
+    header "UIImage+Masking.h"
+    header "UIImage+Rotating.h"
+    header "UIImage+Saving.h"
+    header "UIScrollView+Screenshot.h"
+    header "UIView+Screenshot.h"
+
+    export *
+}

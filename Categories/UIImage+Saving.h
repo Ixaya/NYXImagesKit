@@ -7,9 +7,8 @@
 //  www.cocoaintheshell.com
 //
 
-
+#import <UIKit/UIKit.h>
 #import "NYXImagesHelper.h"
-
 
 typedef enum
 {
@@ -35,7 +34,7 @@ typedef enum
 
 -(BOOL)saveToPath:(NSString*)path;
 
--(BOOL)saveToPhotosAlbum;
+//-(BOOL)saveToPhotosAlbum;
 
 +(NSString*)extensionForUTI:(CFStringRef)uti;
 
